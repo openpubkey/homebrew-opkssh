@@ -5,7 +5,7 @@ class Opkssh < Formula
     sha256 "b0915465633f6a14244fafac5d0d8a74eec5ebf40f9c2eeb542f2d8f510dc72f"
     license "APACHE-2.0"
   
-    depends_on "go" => :build
+    depends_on "go@1.23" => :build
   
     def install
       system "go", "build", "-o", bin/"opkssh", "./opkssh"
