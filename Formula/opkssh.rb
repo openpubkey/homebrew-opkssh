@@ -1,10 +1,10 @@
 class Opkssh < Formula
     desc "opkssh (OpenPubKey SSH) - SSH with OpenID Connect"
     homepage "https://github.com/openpubkey/opkssh"
-    version "0.2.1" # Replace with the latest version
+    version "0.2.2" # Replace with the latest version
 
     url "https://github.com/openpubkey/opkssh/archive/refs/tags/v#{version}.tar.gz"
-    sha256 "e36c49480a08d05d01bc3534f1e31a76947a5f1acb96e48139e745d30c13c8de"
+    sha256 "fa5ac8a956837c9f2959d08720dbf31b3713ebafdf8b47ec9408e8a16605d080"
     license "APACHE-2.0"
     depends_on "go@1.23" => :build
   
