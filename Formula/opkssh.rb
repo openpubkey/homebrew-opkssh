@@ -9,7 +9,7 @@ class Opkssh < Formula
     depends_on "go@1.23" => :build
   
     def install
-      system "go", "-ldflags", "-X main.Version=#{version}", "build", "-o", bin/"opkssh"
+      system "go", "build", "-ldflags=-X main.Version=#{version}", "-o", bin/"opkssh"
     end
   
     test do
