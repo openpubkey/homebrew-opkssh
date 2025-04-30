@@ -1,11 +1,11 @@
 class Opkssh < Formula
     desc "opkssh (OpenPubKey SSH) - SSH with OpenID Connect"
     homepage "https://github.com/openpubkey/opkssh"
-    opkssh_version = "0.5.1" # Replace with the latest version
+    opkssh_version = "0.6.0" # Replace with the latest version
     version opkssh_version
 
     url "https://github.com/openpubkey/opkssh/archive/refs/tags/v#{version}.tar.gz"
-    sha256 "e178a1a57715dfaa2128ff4cfb70f4269243d0e246dcd67a66e050d726e54a49"
+    sha256 "df86132ce42ba3ad4bb7b34584a1176a38d6243514a365d866f67a9f1536f67b"
     license "APACHE-2.0"
 
     # Bottle disabled for now 
